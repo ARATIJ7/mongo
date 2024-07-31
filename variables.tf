@@ -19,6 +19,6 @@ variable "key_name" {
   description = "Name of the SSH key pair"
 }
 
-variable "ssh_public_key" {
+variable "ssh_public_key_path" {
   description = "SSH public key"
 }
