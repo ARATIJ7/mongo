@@ -78,7 +78,7 @@ resource "aws_security_group" "west_mongodb_sg" {
 
 resource "aws_key_pair" "west_key_pair" {
   key_name   = "west-key-pair"
-  public_key = var.ssh_public_key
+  public_key = file(var.ssh_public_key_path)
 }
 
 resource "aws_instance" "west_mongodb_instance_1" {
