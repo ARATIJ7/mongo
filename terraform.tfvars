@@ -1,0 +1,6 @@
+aws_access_key_id_west = "your-access-key-id"
+aws_secret_access_key_west = "your-secret-access-key"
+ami_id_west = "ami-12345678"
+instance_type = "t3.medium"
+key_name = "your-key-name"
+ssh_public_key = "your-ssh-public-key"
